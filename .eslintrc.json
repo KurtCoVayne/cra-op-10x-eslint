@@ -4,15 +4,9 @@
 		"airbnb/hooks",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:jest/recommended",
-		"prettier",
-		"prettier/react",
-		"prettier/@typescript-eslint",
 		"plugin:prettier/recommended"
 	],
-	"ignorePatterns": [
-		"build/**/*",
-		"**/*.d.ts"
-	],
+	"ignorePatterns": ["build/**/*", "**/*.d.ts"],
 	"plugins": ["react", "@typescript-eslint", "jest"],
 	"env": {
 		"browser": true,
@@ -40,8 +34,8 @@
 				"endOfLine": "auto"
 			}
 		],
-        "@typescript-eslint/camelcase": "off",
-        "no-use-before-define": "off",
-        "import/extensions":"off"
+		"@typescript-eslint/camelcase": "off",
+		"no-use-before-define": "off",
+		"import/extensions": "off"
 	}
 }
